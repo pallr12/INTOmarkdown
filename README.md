@@ -15,42 +15,42 @@ The installation of Vim and Git was straightforward. So, I will put the output f
 
 1) Installing Vim
 
-ubuntu@ubuntu:~$ sudo apt-get install vim
-Reading package lists... Done
-Building dependency tree
-       
-Reading state information... Done
-The following extra packages will be installed:
-  vim-runtime
-Suggested packages:
-  ctags vim-doc vim-scripts
-The following NEW packages will be installed:
-  vim vim-runtime
-0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
-Need to get 5,825 kB of archives.
-After this operation, 28.0 MB of additional disk space will be used.
-Do you want to continue [Y/n]? y
-Get:1 http://archive.ubuntu.com/ubuntu/ saucy/main vim-runtime all 2:7.4.000-1ubuntu2 [4,880 kB]
-Get:2 http://archive.ubuntu.com/ubuntu/ saucy/main vim amd64 2:7.4.000-1ubuntu2 [945 kB]
-Fetched 5,825 kB in 8s (649 kB/s)                                              
-Selecting previously unselected package vim-runtime.
-(Reading database ... 168741 files and directories currently installed.)
-Unpacking vim-runtime (from .../vim-runtime_2%3a7.4.000-1ubuntu2_all.deb) ...
-Adding 'diversion of /usr/share/vim/vim74/doc/help.txt to /usr/share/vim/vim74/doc/help.txt.vim-tiny by vim-runtime'
-Adding 'diversion of /usr/share/vim/vim74/doc/tags to /usr/share/vim/vim74/doc/tags.vim-tiny by vim-runtime'
-Selecting previously unselected package vim.
-Unpacking vim (from .../vim_2%3a7.4.000-1ubuntu2_amd64.deb) ...
-Processing triggers for man-db ...
-Setting up vim-runtime (2:7.4.000-1ubuntu2) ...
-Processing /usr/share/vim/addons/doc
-Setting up vim (2:7.4.000-1ubuntu2) ...
-update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vim (vim) in auto mode
-update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vimdiff (vimdiff) in auto mode
-update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rvim (rvim) in auto mode
-update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rview (rview) in auto mode
-update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vi (vi) in auto mode
-update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/view (view) in auto mode
-update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/ex (ex) in auto mode
+> ubuntu@ubuntu:~$ sudo apt-get install vim
+> Reading package lists... Done
+> Building dependency tree
+>       
+> Reading state information... Done
+> The following extra packages will be installed:
+>   vim-runtime
+> Suggested packages:
+>   ctags vim-doc vim-scripts
+> The following NEW packages will be installed:
+>   vim vim-runtime
+> 0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+> Need to get 5,825 kB of archives.
+> After this operation, 28.0 MB of additional disk space will be used.
+> Do you want to continue [Y/n]? y
+> Get:1 http://archive.ubuntu.com/ubuntu/ saucy/main vim-runtime all 2:7.4.000-1ubuntu2 [4,880 kB]
+> Get:2 http://archive.ubuntu.com/ubuntu/ saucy/main vim amd64 2:7.4.000-1ubuntu2 [945 kB]
+> Fetched 5,825 kB in 8s (649 kB/s)                                              
+> Selecting previously unselected package vim-runtime.
+> (Reading database ... 168741 files and directories currently installed.)
+> Unpacking vim-runtime (from .../vim-runtime_2%3a7.4.000-1ubuntu2_all.deb) ...
+> Adding 'diversion of /usr/share/vim/vim74/doc/help.txt to /usr/share/vim/vim74/doc/help.txt.vim-tiny by vim-runtime'
+> Adding 'diversion of /usr/share/vim/vim74/doc/tags to /usr/share/vim/vim74/doc/tags.vim-tiny by vim-runtime'
+> Selecting previously unselected package vim.
+> Unpacking vim (from .../vim_2%3a7.4.000-1ubuntu2_amd64.deb) ...
+> Processing triggers for man-db ...
+> Setting up vim-runtime (2:7.4.000-1ubuntu2) ...
+> Processing /usr/share/vim/addons/doc
+> Setting up vim (2:7.4.000-1ubuntu2) ...
+> update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vim (vim) in auto mode
+> update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vimdiff (vimdiff) in auto mode
+> update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rvim (rvim) in auto mode
+> update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rview (rview) in auto mode
+> update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vi (vi) in auto mode
+> update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/view (view) in auto mode
+> update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/ex (ex) in auto mode
 
 2) Installing Git
 ubuntu@ubuntu:~$ sudo apt-get install git-core
