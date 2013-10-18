@@ -7,13 +7,15 @@ Hópmeðlimir:
 
 ## 1. Linux uppsetning
 
-I downloaded an Ubuntu image and installed it on a USB stick. There were no complications during the installation, and everything was up and running in "no" time.
+I downloaded an Ubuntu ISO image and installed it on a USB stick. There were no complications during the installation, and everything was up and running in "no" time. However, there is a serious downside to this method and I experienced it firsthand. If the system crashes while I am doing something important, everything is lost!  
 
+![Image]()
+  
 ## 2. Uppsetning á vim && git
 
 The installation of Vim and Git was straightforward. So, I will put the output from the terminal in here as a reference of how it went.
 
-### 1) Installing Vim  
+### 2.1. Installing Vim  
 ```
 ubuntu@ubuntu:~$ sudo apt-get install vim  
 Reading package lists... Done  
@@ -53,7 +55,7 @@ update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/view (view) in
 update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/ex (ex) in auto mode  
 ```  
 
-### 2) Installing Git  
+### 2.2. Installing Git  
 ```
 ubuntu@ubuntu:~$ sudo apt-get install git-core  
 Reading package lists... Done  
