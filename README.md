@@ -13,7 +13,8 @@ I downloaded an Ubuntu image and installed it on a USB stick. There were no comp
 
 The installation of Vim and Git was straightforward. So, I will put the output from the terminal in here as a reference of how it went.
 
-1) Installing Vim  
+### 1) Installing Vim  
+```
 ubuntu@ubuntu:~$ sudo apt-get install vim  
 Reading package lists... Done  
 Building dependency tree  
@@ -50,8 +51,10 @@ update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rview (rview) 
 update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vi (vi) in auto mode  
 update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/view (view) in auto mode  
 update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/ex (ex) in auto mode  
-  
-2) Installing Git  
+```  
+
+### 2) Installing Git  
+```
 ubuntu@ubuntu:~$ sudo apt-get install git-core  
 Reading package lists... Done  
 Building dependency tree  
@@ -86,10 +89,12 @@ Setting up liberror-perl (0.17-1) ...
 Setting up git-man (1:1.8.3.2-1) ...  
 Setting up git (1:1.8.3.2-1) ...  
 Setting up git-core (1:1.8.3.2-1) ...  
+```
 
 ## 3. Unnið með Git (1. hluti)
 
-1) Installation of SSH keys  
+### 1) Installation of SSH keys  
+```
 ubuntu@ubuntu:~$ cd ~/.ssh  
 bash: cd: /home/ubuntu/.ssh: No such file or directory  
 ubuntu@ubuntu:~$ mkdir ~/.ssh  
@@ -114,8 +119,10 @@ The key's randomart image is:
 |                 |  
 |                 |  
 +-----------------+  
-  
-2) Installation of Xclip  
+```  
+
+### 2) Installation of Xclip  
+```
 ubuntu@ubuntu:~$ sudo apt-get install xclip  
 Reading package lists... Done  
 Building dependency tree  
@@ -162,8 +169,10 @@ The key's randomart image is:
 |                 |  
 +-----------------+  
 ubuntu@ubuntu:~$ xclip -sel clip < ~/.ssh/id_palleydal_rsa.pub  
-  
-3) Git clone for pallr12@ru.is  
+```  
+
+### 3) Git clone for pallr12@ru.is  
+```
 ubuntu@ubuntu:~$ git clone https://github.com/pallr12/INTOPrufa  
 Cloning into 'INTOPrufa'...  
 remote: Counting objects: 27, done.  
@@ -200,8 +209,10 @@ Writing objects: 100% (3/3), 328 bytes | 0 bytes/s, done.
 Total 3 (delta 1), reused 0 (delta 0)  
 To https://github.com/pallr12/INTOPrufa  
    3430d1b..3568899  master -> master  
-  
-4) Git clone for palleydal@gmail.com  
+```  
+
+### 4) Git clone for palleydal@gmail.com  
+```
 ubuntu@ubuntu:~$ git clone https://github.com/pallr12/INTOPrufa  
 Cloning into 'INTOPrufa'...  
 remote: Counting objects: 33, done.  
@@ -225,11 +236,12 @@ Writing objects: 100% (3/3), 343 bytes | 0 bytes/s, done.
 Total 3 (delta 1), reused 0 (delta 0)  
 To https://github.com/pallr12/INTOPrufa  
    3568899..c83c683  master -> master  
-  
-5) Description of the process  
+```  
+
+### 5) Description of the process  
 This took me a couple of tries, since I was trying to imitate a group of two people. However, when I realised the functionality of the system (strangely) this became a lot of fun. I will definitely use this more in the future, whether I will be working in a group or by myself. This is just too valuable and easy to use, for me to not do it.
 
-6) Link to the project
+### 6) Link to the project
 [https://github.com/pallr12/INTOmarkdown](https://github.com/pallr12/INTOmarkdown)
 
 ## 4. Uppsettur hugbúnaður
