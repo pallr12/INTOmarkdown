@@ -14,9 +14,11 @@ I downloaded an Ubuntu image and installed it on a USB stick. There were no comp
 The installation of Vim and Git was straightforward. So, I will put the output from the terminal in here as a reference of how it went.
 
 1) Installing Vim
+
 ubuntu@ubuntu:~$ sudo apt-get install vim
 Reading package lists... Done
-Building dependency tree       
+Building dependency tree
+       
 Reading state information... Done
 The following extra packages will be installed:
   vim-runtime
@@ -231,18 +233,18 @@ To https://github.com/pallr12/INTOPrufa
 This took me a couple of tries, since I was trying to imitate a group of two people. However, when I realised the functionality of the system (strangely) this became a lot of fun. I will definitely use this more in the future, whether I will be working in a group or by myself. This is just too valuable and easy to use, for me to not do it.
 
 6) Link to the project
-[a link](https://github.com/pallr12/INTOmarkdown)
+[https://github.com/pallr12/INTOmarkdown](https://github.com/pallr12/INTOmarkdown)
 
 ## 4. Uppsettur hugbúnaður
 
 Since I am using the same computer for "all" group members I will only hand in one list.
 
 
-| Program         | Version | License | Source Repository                                 |
-| --------------- |:-------:| -------:| ------------------------------------------------- |
-| gedit           | 3.8.3   | GPLv2   | [a link](http://git.gnome.org/browse/gedit)       |
-| Mozilla Firefox | 24.0    | MPLv2   | [a link](https://hg.mozilla.org/mozilla-central)  |
-| LibreOffice     | 4.1.2.3 | LGPLv3  | [a link](http://cgit.freedesktop.org/libreoffice) |
+| Program         | Version | License | Source Repository                                                |
+| --------------- | ------- | ------- | ---------------------------------------------------------------- |
+| gedit           | 3.8.3   | GPLv2   | [gedit repository](http://git.gnome.org/browse/gedit)            |
+| Mozilla Firefox | 24.0    | MPLv2   | [Firefox repository](https://hg.mozilla.org/mozilla-central)      |
+| LibreOffice     | 4.1.2.3 | LGPLv3  | [LibreOffice repository](http://cgit.freedesktop.org/libreoffice) |
 
 ## 5. Unnið með Git (2. hluti)
 
