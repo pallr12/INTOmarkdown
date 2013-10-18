@@ -93,7 +93,9 @@ Setting up git-core (1:1.8.3.2-1) ...
 
 ## 3. Unnið með Git (1. hluti)
 
-### 1) Installation of SSH keys  
+### 3.1. Installation of SSH keys  
+
+#### 3.1.1. SSH key for pallr12
 ```
 ubuntu@ubuntu:~$ cd ~/.ssh  
 bash: cd: /home/ubuntu/.ssh: No such file or directory  
@@ -120,8 +122,32 @@ The key's randomart image is:
 |                 |  
 +-----------------+  
 ```  
+#### 3.1.2. SSH key for palleydal
+```  
+ubuntu@ubuntu:~$ ssh-keygen -t rsa -C "palleydal@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/ubuntu/.ssh/id_rsa): /home/ubuntu/.ssh/id_palleydal_rsa
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/ubuntu/.ssh/id_palleydal_rsa.
+Your identification has been saved in /home/ubuntu/.ssh/id_palleydal_rsa.pub.
+The key fingerprint is:
+80:3c:ad:46:68:ea:2d:21:11:67:0c:f1:4d:2f:d6:dc palleydal@gmail.com
+The key's randomart image is:
++--[ RSA 2048]----+
+|++o .            |
+| =.= * .         |
+|. + O * E        |
+| + o + .         |
+|o.  o   S        |
+|o o.             |
+| o .             |
+|  .              |
+|                 |
++-----------------+
+```
 
-### 2) Installation of Xclip  
+### 3.2. Installation of Xclip  
 ```
 ubuntu@ubuntu:~$ sudo apt-get install xclip  
 Reading package lists... Done  
@@ -147,31 +173,11 @@ Errors were encountered while processing:
  man-db  
 E: Sub-process /usr/bin/dpkg returned an error code (1)  
 ubuntu@ubuntu:~$ xclip -sel clip < ~/.ssh/id_rsa.pub  
-ubuntu@ubuntu:~$ ssh-keygen -t rsa -C "palleydal@gmail.com"  
-Generating public/private rsa key pair.  
-Enter file in which to save the key (/home/ubuntu/.ssh/id_rsa): /home/ubuntu/.ssh/id_palleydal_rsa  
-Enter passphrase (empty for no passphrase):  
-Enter same passphrase again:  
-Your identification has been saved in /home/ubuntu/.ssh/id_palleydal_rsa.  
-Your identification has been saved in /home/ubuntu/.ssh/id_palleydal_rsa.pub.  
-The key fingerprint is:  
-80:3c:ad:46:68:ea:2d:21:11:67:0c:f1:4d:2f:d6:dc palleydal@gmail.com  
-The key's randomart image is:  
-+--[ RSA 2048]----+  
-|++o .            |  
-| =.= * .         |  
-|. + O * E        |  
-| + o + .         |  
-|o.  o   S        |  
-|o o.             |  
-| o .             |  
-|  .              |  
-|                 |  
-+-----------------+  
 ubuntu@ubuntu:~$ xclip -sel clip < ~/.ssh/id_palleydal_rsa.pub  
 ```  
+## 3.3. Git clones for team members
 
-### 3) Git clone for pallr12@ru.is  
+### 3.3.1. Git clone for pallr12@ru.is  
 ```
 ubuntu@ubuntu:~$ git clone https://github.com/pallr12/INTOPrufa  
 Cloning into 'INTOPrufa'...  
@@ -211,7 +217,7 @@ To https://github.com/pallr12/INTOPrufa
    3430d1b..3568899  master -> master  
 ```  
 
-### 4) Git clone for palleydal@gmail.com  
+### 3.3.2. Git clone for palleydal@gmail.com  
 ```
 ubuntu@ubuntu:~$ git clone https://github.com/pallr12/INTOPrufa  
 Cloning into 'INTOPrufa'...  
@@ -238,10 +244,10 @@ To https://github.com/pallr12/INTOPrufa
    3568899..c83c683  master -> master  
 ```  
 
-### 5) Description of the process  
+### 3.4. Description of the process  
 This took me a couple of tries, since I was trying to imitate a group of two people. However, when I realised the functionality of the system (strangely) this became a lot of fun. I will definitely use this more in the future, whether I will be working in a group or by myself. This is just too valuable and easy to use, for me to not do it.
 
-### 6) Link to the project
+### 3.5. Link to the project
 [https://github.com/pallr12/INTOmarkdown](https://github.com/pallr12/INTOmarkdown)
 
 ## 4. Uppsettur hugbúnaður
