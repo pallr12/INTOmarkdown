@@ -9,7 +9,7 @@ Hópmeðlimir:
 
 I downloaded an Ubuntu ISO image and installed it on a USB stick. There were no complications during the installation, and everything was up and running in "no" time. However, there is a serious downside to this method and I experienced it firsthand. If the system crashes while I am doing something important, everything is lost!  
 
-![Image]()
+![Image](https://raw.github.com/pallr12/images/master/Screenshot_Desktop_2013-10-18.jpg)
   
 ## 2. Uppsetning á vim && git
 
